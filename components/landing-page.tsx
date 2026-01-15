@@ -95,7 +95,7 @@ export function LandingPage() {
             </div>
             <div className="flex items-center gap-4">
               <a 
-                href="https://bo0.gitbook.io/qilinx-x402/" 
+                href="https://bo0.gitbook.io/qilinx-402/" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -169,7 +169,7 @@ export function LandingPage() {
           <div className="mt-12 flex flex-col items-center gap-4">
             <p className="text-lg text-muted-foreground">New to Qilinx? Learn how to get started</p>
             <a 
-              href="https://bo0.gitbook.io/qilinx-x402/" 
+              href="https://bo0.gitbook.io/qilinx-402/" 
               target="_blank" 
               rel="noopener noreferrer"
             >
