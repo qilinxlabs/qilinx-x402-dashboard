@@ -137,3 +137,7 @@ User Wallet → Sign USDC Authorization → Settlement Router → Hook Contract 
 ## License
 
 MIT
+
+## Acknowledgments
+
+This project references the x402 protocol implementation from [Nuwa Protocol](https://github.com/nuwa-protocol/x402-exec).
