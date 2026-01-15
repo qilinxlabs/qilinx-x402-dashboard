@@ -2,6 +2,10 @@
 
 An AI-powered platform for building, testing, and deploying x402 payment solutions on Cronos blockchain.
 
+## Demo Video
+
+Watch the demo: [Qilin x402 Platform Overview](https://youtu.be/MFnRpdUsFes)
+
 ## Resources
 
 | Component | Website | GitHub |
