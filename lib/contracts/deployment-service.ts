@@ -4,7 +4,7 @@
 import { db } from "@/lib/db";
 import { userContract, type ContractTemplate, type EthereumNetwork, type DeploymentConfig, type SourceFile } from "@/lib/db/schema";
 import { compileMultiFileSolidity } from "./compiler-service";
-import { nanoid } from "nanoid";
+import { randomUUID } from "crypto";
 
 export interface DeploymentContext {
   network: EthereumNetwork;
@@ -116,7 +116,7 @@ export async function deployBundle(
     throw new Error(`Compilation failed: ${compileResult.errors?.join(", ")}`);
   }
 
-  const bundleId = nanoid();
+  const bundleId = randomUUID();
   const deployedContracts: DeployedContract[] = [];
   const fileMap = new Map(sourceFiles.map(f => [f.filename, f]));
 
