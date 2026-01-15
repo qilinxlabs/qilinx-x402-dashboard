@@ -9,16 +9,15 @@ import { Badge } from "@/components/ui/badge";
 import { PromoCanvas } from "@/components/landing/promo-canvas";
 import { 
   Bot, 
-  Wallet, 
   FileCode, 
   Blocks, 
-  MessageSquare, 
-  Zap,
   ArrowRight,
   Shield,
   Star,
   Moon,
   Sun,
+  Library,
+  Wrench,
 } from "lucide-react";
 import { SiGithub } from "@icons-pack/react-simple-icons";
 
@@ -35,9 +34,9 @@ const features = [
     description: "Interact with AI assistant to manage x402 payments and smart contracts in natural language.",
   },
   {
-    icon: Wallet,
-    title: "Developer Account",
-    description: "Manage your Cronos developer account and API credentials for contract deployment",
+    icon: Shield,
+    title: "Payment Management",
+    description: "Send x402 payments with USDC on Cronos testnet using EIP-3009 authorization",
   },
   {
     icon: FileCode,
@@ -50,9 +49,14 @@ const features = [
     description: "Build and publish x402 payment DApps with NFT minting, reward points, and split payments",
   },
   {
-    icon: Shield,
-    title: "Payment Management",
-    description: "Send x402 payments with USDC on Cronos testnet using EIP-3009 authorization",
+    icon: Library,
+    title: "A2A Library",
+    description: "A2A library to help developers create server and client implementations for x402 services",
+  },
+  {
+    icon: Wrench,
+    title: "MCP Tools",
+    description: "AI Chats support Cronos MCP and other tools",
   },
 ];
 
@@ -223,7 +227,7 @@ export function LandingPage() {
                 Register
               </Link>
               <a 
-                href="https://github.com/0xbohu/qilinx-cronos-app/" 
+                href="https://github.com/qilinxlabs" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:text-foreground transition-colors flex items-center gap-1"
